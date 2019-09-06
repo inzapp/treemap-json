@@ -1,6 +1,10 @@
 # Treemap JSON
 JSON with custom comparator using treemap<br>
 You can sort json by json key
+
+## Download
+https://github.com/inzapp/treemap-json/releases
+
 ## Usage
 ```java
 json = new JSONObject(new Comparator<String>() {
