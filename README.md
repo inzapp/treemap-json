@@ -7,7 +7,7 @@ https://github.com/inzapp/treemap-json/releases
 
 ## Usage
 ```java
-json = new JSONObject(new Comparator<String>() {
+JSONObject json = new JSONObject(new Comparator<String>() {
     @Override
     public int compare(String a, String b) {
         // parameter a, b is json key
